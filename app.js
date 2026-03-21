@@ -36,3 +36,5 @@ async function analyzerStock (symbol) {
 }
 
 analyzerStock(ticker);
+
+export { analyzerStock };
