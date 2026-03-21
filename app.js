@@ -1,6 +1,11 @@
 import 'dotenv/config';
 import chalk from 'chalk';
 
+if (!process.env.STOCK_API_KEY) {
+    console.log("Error: Please set your STOCK_API_KEY in a .env file.");
+    process.exit(1);
+}
+
 async function analyzerStock (symbol) { 
     try {
         
