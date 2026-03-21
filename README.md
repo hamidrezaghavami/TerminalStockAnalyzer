@@ -19,8 +19,9 @@ A professional Node.js terminal application designed for traders to perform inst
 npm install
 
 ### Configure Environment:
-Create a .env file in the root directory and add your API key:
-STOCK_API_KEY=your_api_key_here
+API Key: Copy `.env.example` to a new file named `.env` and paste your FMP API key there.
+
+Run: node app.js `[Stock symbol based on FMP website]`
 
 ### 💻 Usage: 
 Run the analyzer by providing a stock ticker (e.g., AAPL, TSLA, BTC) as a command-line argument:
