@@ -38,3 +38,7 @@ async function analyzerStock (symbol) {
 analyzerStock(ticker);
 
 export { analyzerStock };
+
+if (process.argv[1] === import.meta.filename) {
+    analyzerStock(ticker);
+}
