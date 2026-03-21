@@ -1,0 +1,23 @@
+{
+  "name": "terminalstockanalyzer",
+  "version": "1.0.0",
+  "description": "A high-performance Node.js terminal application that fetches real-time financial data to provide traders with instant stock analysis. It features a clean command-line interface, secure API key management via environment variables, and automated testing with Jest.",
+  "keywords": [
+    "package.json"
+  ],
+  "homepage": "https://github.com/hamidrezaghavami/TerminalStockAnalyzer#readme",
+  "bugs": {
+    "url": "https://github.com/hamidrezaghavami/TerminalStockAnalyzer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamidrezaghavami/TerminalStockAnalyzer.git"
+  },
+  "license": "MIT",
+  "author": "Hamid Reza Ghavami",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
