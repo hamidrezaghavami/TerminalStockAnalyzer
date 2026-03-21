@@ -18,7 +18,7 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-modules jest",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "start": "node app.js"
   },
   "devDependencies": {

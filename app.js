@@ -1,13 +1,6 @@
 import 'dotenv/config';
 import chalk from 'chalk';
 
-const ticker = process.argv[2];
-
-if (!ticker) { 
-    console.log("Usage: node app.js [ticker]");
-    process.exit();
-}
-
 async function analyzerStock (symbol) { 
     try {
         
@@ -35,10 +28,14 @@ async function analyzerStock (symbol) {
     }
 }
 
-analyzerStock(ticker);
-
 export { analyzerStock };
 
 if (process.argv[1] === import.meta.filename) {
+    const ticker = process.argv[2];
+    
+    if (!ticker) { 
+        console.log("Usage: node app.js [ticker]");
+        process.exit();
+    }
     analyzerStock(ticker);
 }
