@@ -1,6 +1,6 @@
 # 📈 Terminal Stock Analyzer
 
-A professional Node.js terminal application designed for traders to perform instant stock analysis. This tool fetches real-time financial data, provides color-coded market insights, and follows modern development best practices.
+A professional Node.js terminal application designed for traders to perform instant stock analysis. This tool fetches real-time financial data, provides color-coded market insights, and follows modern development best practices!.
 
 ## 🚀 Features
 * **Real-Time Data:** Fetches live prices using the Financial Modeling Prep API.
